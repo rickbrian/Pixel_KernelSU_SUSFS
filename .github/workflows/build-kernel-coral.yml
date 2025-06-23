@@ -54,7 +54,7 @@ jobs:
           git clone https://gitlab.com/simonpunk/susfs4ksu.git -b "$SUSFS_BRANCH"
           git clone https://github.com/WildPlusKernel/kernel_patches.git
           pwd
-          ls
+          ls ./kernel_patches/next/
       
       - name: Initialize and Sync Kernel Source
         run: |
