@@ -91,7 +91,7 @@ jobs:
           
           # Copy SUSFS patches
           ls ../../../
-          cp ../../../kernel_patches/0001-kernel-implement-susfs-v1.5.8-KernelSU-Next-v1.0.8.patch ./KernelSU-Next
+          cp ../../../kernel_patches/next/0001-kernel-implement-susfs-v1.5.8-KernelSU-Next-v1.0.8.patch ./KernelSU-Next
           cp ../../../susfs4ksu/kernel_patches/50_add_susfs_in_kernel-4.14.patch ./
           cp ../../../susfs4ksu/kernel_patches/fs/* ./fs/
           cp ../../../susfs4ksu/kernel_patches/include/linux/* ./include/linux/
